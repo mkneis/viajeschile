@@ -23,10 +23,6 @@ $("a").click(function() {
 
 });
 
-// tooltip boton enviar
-const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]')
-const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstrap.Tooltip(tooltipTriggerEl))
-
 // toogle cuerpo de tarjetas
 $(".tituloTarjeta").click(function(){
     $(".textoTarjeta").toggle();
