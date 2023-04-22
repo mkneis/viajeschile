@@ -23,11 +23,6 @@ $("a").click(function() {
 
 });
 
-// enviar correo alert
-$("#enviarMensaje").click(function() {
-    alert("Este mensaje fue enviado correctamente.")
-    });
-
 // tooltip boton enviar
 const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]')
 const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstrap.Tooltip(tooltipTriggerEl))
@@ -43,7 +38,6 @@ $(".navboton").hover(function(){
     }, function(){
     $(this).css("font-size", "16px");
 });
-
 
 // toast
 const myToast = new bootstrap.Toast('.toast');

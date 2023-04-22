@@ -26,7 +26,7 @@ header {
 
 
 .icon {
-    background-color: aqua;
+    background-color: #3dadb8;
 }
 
 /* destacados */
@@ -35,7 +35,7 @@ header {
 }
 
 .carta {
-    background-color: aqua;
+    background-color: #3dadb8;
 }
 
 .card-img {
@@ -54,13 +54,13 @@ header {
 }
 
 .botonEnviar {
-    background-color: aqua !important;
+    background-color: #3dadb8 !important;
 }
 
 /* footer */
 
 .pie {
-    background-color: aqua;
+    background-color: #3dadb8;
 }
 
 .foot{
@@ -77,5 +77,10 @@ header {
     right: 15px;
     z-index: 9999;
     
+}
+
+/* boton modal */
+.modalboton {
+    background-color: #3dadb8 !important;
 }
 

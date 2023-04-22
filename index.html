@@ -174,7 +174,7 @@
         </div>
         
         <div class = "pb-4">
-            <button type="submit" class="btn text-white mt-3 botonEnviar" data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-title="Presiona para enviarnos un mensaje" id="enviarMensaje">Enviar</button>
+            <button type="submit" class="btn text-white mt-3 botonEnviar" data-bs-toggle="modal" data-bs-target="#exampleModal" id="enviarMensaje">Enviar</button>
         </div>            
       </form>
     </div>
@@ -213,8 +213,19 @@
     </div>
   </div>
 
-  
-
+  <!-- modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-body">
+          Su mensaje ha sido enviado correctamente.
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn text-white modalboton" data-bs-dismiss="modal">Cerrar</button>
+        </div>
+      </div>
+    </div>
+  </div>
 
   <script src="https://code.jquery.com/jquery-3.6.4.min.js" integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8=" crossorigin="anonymous"></script>  
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js" integrity="sha384-zYPOMqeu1DAVkHiLqWBUTcbYfZ8osu1Nd6Z89ify25QV9guujx43ITvfi12/QExE" crossorigin="anonymous"></script>
